@@ -2,21 +2,29 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.body');
+})->name('home');
+Route::get('/contact', function () {
+    return view('front.pages.contact');
+});
+Route::get('/coin-market', function () {
+    return view('front.pages.coin-market');
 });
 
+Route::get('/events', function () {
+    return view('front.pages.events');
+});
+
+Route::get('/event-detail', function () {
+    return view('front.pages.event-detail');
+});
+Route::get('/experts', function () {
+    return view('front.pages.experts');
+});
+Route::get('/crypto-currencies', function () {
+    return view('front.pages.cryptocurrencies');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
