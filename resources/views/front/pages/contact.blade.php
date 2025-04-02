@@ -186,15 +186,15 @@
 							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 								<div class="form-group label-floating">
 									<label class="input-label control-label">What is your name? <abbr class="required" title="required">*</abbr></label>
-									<input class="form-control input--squared input--dark" type="text" value="Peter Spenser">
+									<x-forms.input name="name" placeholder="Name" />
 								</div>
 								<div class="form-group label-floating">
 									<label class="input-label control-label">Your email address <abbr class="required" title="required">*</abbr></label>
-									<input class="form-control input--squared input--dark" type="email" value="">
+									<x-forms.input type="email" name="email" placeholder="Email" />
 								</div>
 								<div class="form-group label-floating">
 									<label class="input-label control-label">Subject</label>
-									<input class="form-control input--squared input--dark" type="text">
+									<x-forms.input type="text" name="subject" placeholder="Subject" />
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -202,7 +202,9 @@
 									<label class="input-label control-label">Write your message here</label>
 									<textarea class="form-control input--squared input--dark height-170" name="message" placeholder=""></textarea>
 								</div>
-								<button class="btn btn--large btn--primary">Send a Message</button>
+								<x-forms.primary-button>
+									Send a message
+								</x-forms.primary-button>
 							</div>
 						</div>
 					</form>
@@ -216,6 +218,5 @@
 @endsection
 
 @section("script")
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDpqPQbjKiY7zSvLyPRIWWOfG1XiuhhYg"
-		></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDpqPQbjKiY7zSvLyPRIWWOfG1XiuhhYg"></script>
 @stop

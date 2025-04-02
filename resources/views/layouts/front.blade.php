@@ -5,11 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Digital Rupaiya</title>
 
-	<link rel="stylesheet" type="text/css" href="css/plugins.min.css">
-	<link rel="stylesheet" type="text/css" href="css/theme-styles.min.css">
-	<link rel="stylesheet" type="text/css" href="css/blocks.min.css">
-	<link rel="stylesheet" type="text/css" href="css/widgets.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/plugins.min.css?v=2">
+	<link rel="stylesheet" type="text/css" href="css/theme-styles.min.css?v=2">
+	<link rel="stylesheet" type="text/css" href="css/blocks.min.css?v=2">
+	<link rel="stylesheet" type="text/css" href="css/widgets.min.css?v=2">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css?v=2">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
 
 </head>

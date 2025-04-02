@@ -594,8 +594,12 @@ var CRUMINA = {};
 			return state.text;
 		}
 		var $state = $(
-			'<span ><img class="woox-icon" sytle="display: inline-block;" src="img/' + state.element.value.toLowerCase() + '.png" /> ' + state.text + '</span>'
-		);
+            '<span ><img class="woox-icon" sytle="display: inline-block;" src="../assets/' +
+                state.element.value.toLowerCase() +
+                '.png" /> ' +
+                state.text +
+                "</span>"
+        );
 		return $state;
 	}
 
